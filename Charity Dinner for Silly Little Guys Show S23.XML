@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Production>
+  <Version>2.5.5.0</Version>
+  <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\Charity Dinner for Silly Little Guys Show S23.XML</FileName>
+  <LastModified>2023-03-22 10:19:02 am</LastModified>
+  <General>
+    <AutoStart>0</AutoStart>
+  </General>
+  <Appearance>
+    <CueList Name="Arial" Size="10" Colour="clWhite" BgColour="clBlack" CueSelectedBgColour="clPurple" CueSelectedFontColour="clWhite" CueColourStyle="0" CueListScrollBars="-1" FontColourAudio="clWhite" FontColourControl="clWhite" FontColourEnd="clWhite" FontColourMemo="clWhite" FontColourMidi="clWhite" FontColourMidiMute="clWhite" FontColourMidiSeq="clWhite" FontColourMSC="clWhite" FontColourPlayList="clWhite" FontColourSerial="clWhite" FontColourTelnet="clWhite" FontColourVideo="clWhite" FontColourWait="clWhite" FontColourLaunch="clWhite" BgColourAudio="clBlack" BgColourControl="clBlack" BgColourEnd="clBlack" BgColourMemo="clBlack" BgColourMidi="clBlack" BgColourMidiMute="clBlack" BgColourMidiSeq="clBlack" BgColourMSC="clBlack" BgColourPlayList="clBlack" BgColourSerial="clBlack" BgColourTelnet="clBlack" BgColourVideo="clBlack" BgColourWait="clBlack" BgColourLaunch="clBlack"/>
+    <ProgressBar ColourPlaying="clGreen" ColourPaused="clBlue" ColourWarning="clRed" ColourLooping="clGreen" MaxWhenLooping="-1" ProgressFullHeight="-1"/>
+    <NotesHeader Name="Arial" Size="12" BgColour="clBlack" Colour="clRed"/>
+    <NotesBody Name="Arial" Size="10" Colour="clBlack" BgColour="clCream"/>
+    <Buttons StopwatchFontColour="clWhite" StopwatchBgColour="clBlack" ClockFontColour="clWhite" ClockBgColour="clBlack" StopAllFontColour="clYellow" StopAllBgColour="clBlack" FadeAllFontColour="clAqua" FadeAllBgColour="clBlack" AdvanceFontColour="$000080FF" AdvanceBgColour="clBlack"/>
+    <HideFractionalSeconds>0</HideFractionalSeconds>
+  </Appearance>
+  <Audio PreviewDevice="1">
+    <Patch Name="Output 1" Device="1"/>
+    <Patch Name="Output 2" Device="1"/>
+    <Patch Name="Output 3" Device="1"/>
+    <Patch Name="Output 4" Device="1"/>
+  </Audio>
+  <MIDI>
+    <Muting Output="0" Channel="0"/>
+  </MIDI>
+  <Telnet>
+    <Listen Port="0" Active="0"/>
+  </Telnet>
+  <Triggers>
+    <Action Name="actGo" Key="32" Shift="" Direction="0"/>
+    <Action Name="actPauseAll" Key="0" Shift="" Direction="0"/>
+    <Action Name="actResumeAll" Key="0" Shift="" Direction="0"/>
+    <Action Name="actStopAll" Key="27" Shift="" Direction="0"/>
+    <Action Name="actFadeAllOut" Key="0" Shift="" Direction="0"/>
+    <Action Name="actAdvance" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCuePause" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCueResume" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCueStop" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCueFadeOut" Key="0" Shift="" Direction="0"/>
+    <Action Name="ActStopVolumeFade" Key="0" Shift="" Direction="0"/>
+    <Action Name="ActStopPanFade" Key="0" Shift="" Direction="0"/>
+    <Action Name="ActStopPitchFade" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCuePreview" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCueRestart" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCuePrevTrack" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCueNextTrack" Key="0" Shift="" Direction="0"/>
+    <Action Name="actCueJump" Key="74" Shift="Ctrl+" Direction="0"/>
+    <Action Name="actStopwatchStart" Key="0" Shift="" Direction="0"/>
+    <Action Name="actStopwatchStop" Key="0" Shift="" Direction="0"/>
+    <Action Name="actStopwatchReset" Key="0" Shift="" Direction="0"/>
+  </Triggers>
+  <HotButtons ColumnCount="1" RowCount="1" FontSize="12" FontName="Arial" UseCueDescriptions="0">
+    <Button Caption="1" CaptionColour="clBlack" BtnColour="clCream" CueUID=""/>
+  </HotButtons>
+  <Layouts DefaultLayout="0">
+    <Layout ColumnStates="15#50,30,78,96,217,186,90,90,90,50,50,50,50,100,64#0,1,2,3,4,5,6,7,8,9,10,11,12,13,14#1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" DirectEdit="0" LimitedUser="0" Name="Default Layout">
+      <Window Name="Main" Top="-8" Left="-8" Width="1041" Height="851" Maximised="-1"/>
+      <Notes UpperPaneSize="108" LowerPaneSize="108"/>
+      <sitelist>
+				<site id="fmMain.DockSite">
+					<zone kind="HORZ">
+						<zone kind="VERT" size="32" dsize="0.0607210626185958">
+							<zone kind="PANEL" id="fmMain.DkElapsedTime" visible="0" floatwidth="32" floatheight="154" size="315" dsize="1"/>
+							<zone kind="PANEL" id="fmMain.dkRemainingTime" visible="0" floatwidth="49" floatheight="315" size="315" dsize="1"/>
+						</zone>
+						<zone kind="VERT" size="121" dsize="0.0631524008350731">
+							<zone kind="PANEL" id="fmMain.dkCueControls" visible="0" floatwidth="157" floatheight="315" size="32" dsize="0.137241925575692"/>
+							<zone kind="PANEL" id="fmMain.DkClock" visible="0" floatwidth="180" floatheight="38" size="32" dsize="0.127402738446144"/>
+							<zone kind="PANEL" id="fmMain.DkGo" visible="1" floatwidth="180" floatheight="41" size="967" dsize="1"/>
+							<zone kind="PANEL" id="fmMain.DkExtTools" visible="0" floatwidth="180" floatheight="35" size="55" dsize="0.201264741978716"/>
+							<zone kind="PANEL" id="fmMain.DkStopAll" visible="0" floatwidth="180" floatheight="32" size="32" dsize="0.0263161343166393"/>
+							<zone kind="PANEL" id="fmMain.DkFadeAll" visible="0" floatwidth="180" floatheight="32" size="175" dsize="0.569394127934511"/>
+							<zone kind="PANEL" id="fmMain.DkAdvance" visible="0" floatwidth="180" floatheight="32" size="141" dsize="0.452759289887748"/>
+							<zone kind="PANEL" id="fmMain.DkStopwatch" visible="0" floatwidth="180" floatheight="32" size="315" dsize="1"/>
+						</zone>
+						<zone kind="PANEL" id="fmMain.DkCueList" visible="1" floatwidth="32" floatheight="317" size="1795" dsize="0.936847599164927" isspace="1"/>
+						<zone kind="VERT" size="334" dsize="0.642307692307692">
+							<zone kind="HORZ" size="315" dsize="1">
+								<zone kind="VERT" size="334" dsize="1">
+									<zone kind="PANEL" id="fmMain.dkAdlibList" visible="0" floatwidth="334" floatheight="157" size="157" dsize="0.504823151125402"/>
+									<zone kind="PANEL" id="fmMain.DkHotButtons" visible="0" floatwidth="110" floatheight="185" size="315" dsize="1"/>
+								</zone>
+								<zone kind="PANEL" id="fmMain.DkNotes" visible="0" floatwidth="308" floatheight="317" size="334" dsize="1"/>
+							</zone>
+							<zone kind="PANEL" id="fmMain.DkPreviewer" visible="0" floatwidth="110" floatheight="128" size="334" dsize="1"/>
+						</zone>
+						<zone kind="PANEL" id="fmMain.dkVideoPreview" visible="0" floatwidth="32" floatheight="315" size="32" dsize="0.0611854684512428"/>
+					</zone>
+				</site>
+			</sitelist>
+    </Layout>
+  </Layouts>
+  <CueList Name="Main">
+    <Cue>
+      <UID>1</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Show Begin</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>2</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Italian Music</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>A Legit Olive Garden</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - ITALIAN Music.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>2148794</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>12</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Olive Garden End</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>3</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>NJ Transit End</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>23</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Look Busy-2x4IrXu3V3U-160k-1654848571846</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Look Busy-2x4IrXu3V3U-160k-1654848571846.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>-5</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>107498</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>24</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Applause  Sound Effect-0mfJn604GT4-160k-1654206119482</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Applause  Sound Effect-0mfJn604GT4-160k-1654206119482.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>9362</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>20</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Glass Breaking sounds effects hd no copyright-YrH9dtA2yB0-128k-1654848954392</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Glass Breaking sounds effects hd no copyright-YrH9dtA2yB0-128k-1654848954392.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>1602</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>16</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - splat sound effects (no copyright)-o7OgJWmxV3k-128k-1654358366145</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - splat sound effects (no copyright)-o7OgJWmxV3k-128k-1654358366145.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>1027</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>25</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Default iPhone Notification Sound (Apple Sound) - Sound Effect for Editing-AiMbf0ovXT4-128k-1654145855559</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Default iPhone Notification Sound (Apple Sound) - Sound Effect for Editing-AiMbf0ovXT4-128k-1654145855559.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>1968</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>26</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Success Fanfare Trumpets - SOUND EFFECTS-2b59E6cReLw-160k-1654846774042</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Success Fanfare Trumpets - SOUND EFFECTS-2b59E6cReLw-160k-1654846774042.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>4010</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>11</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Checkmate</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>14</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Explode sound Effects-Gi2YLVvhFgg-128k-1654356505454</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Navigation</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Explode sound Effects-Gi2YLVvhFgg-128k-1654356505454.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>6304</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>21</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Navigation End</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>19</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Gunshot Sound Effect-Fn0IBlb8GQg-128k-1654178895699</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>How Can I Hurt You</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Gunshot Sound Effect-Fn0IBlb8GQg-128k-1654178895699.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>3822</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>18</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Impact on Metal Sound Effect Third Variation-CIgTQQuKbQY-192k-1656613149822</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>How Can I Hurt You</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Impact on Metal Sound Effect Third Variation-CIgTQQuKbQY-192k-1656613149822.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>937</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>6</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Hurt You End</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>13</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Creepy Haunted House Organ Music-w3C6z8oLhfw-160k-1654352463706</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Roasted and Toasted</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Creepy Haunted House Organ Music-w3C6z8oLhfw-160k-1654352463706.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>-3</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>8000</StartPos>
+      <EndPos>175586</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>15</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - 1 Hour of Dark Church Organ  Gothic Cathedral Music-hnqq_TPn1ec-160k-1654355269956</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Roasted and Toasted</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - 1 Hour of Dark Church Organ  Gothic Cathedral Music-hnqq_TPn1ec-160k-1654355269956.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>10000</StartPos>
+      <EndPos>3790010</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>4</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>17</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Explode sound Effects-Gi2YLVvhFgg-128k-1654356505454</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Boys Will be Boys</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Explode sound Effects-Gi2YLVvhFgg-128k-1654356505454.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>6304</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>5</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>7</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Candy From a Baby</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>8</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>9</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <ScriptRef>Ask Matt (See it Coming)</ScriptRef>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>10</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+    <Cue>
+      <UID>3</UID>
+      <Type>0</Type>
+      <Enabled>-1</Enabled>
+      <Description>Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802</Description>
+      <Trigger Key="0" Shift="" Direction="0"/>
+      <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+      <Advance Action="1" Target="0"/>
+      <FileName>C:\Users\David Treder\Desktop\Stevens\Off Center\tech\Charity Dinner to Benifit Silly Little Guys\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
+      <AudioChannel>1</AudioChannel>
+      <Loops>1</Loops>
+      <Volume-dB>0</Volume-dB>
+      <Pan>0</Pan>
+      <Pitch>100</Pitch>
+      <StartPos>0</StartPos>
+      <EndPos>293618</EndPos>
+      <FadeAtEnd>0</FadeAtEnd>
+      <FadeInTime>0</FadeInTime>
+      <FadeOutTime>0</FadeOutTime>
+    </Cue>
+  </CueList>
+  <AdlibList/>
+</Production>
