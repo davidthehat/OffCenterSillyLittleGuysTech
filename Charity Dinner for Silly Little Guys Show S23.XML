@@ -2,7 +2,7 @@
 <Production>
   <Version>2.5.5.0</Version>
   <FileName>C:\OffCenterSillyLittleGuysTech\Charity Dinner for Silly Little Guys Show S23.XML</FileName>
-  <LastModified>2023-03-22 5:53:22 pm</LastModified>
+  <LastModified>2023-03-22 5:59:06 pm</LastModified>
   <General>
     <AutoStart>0</AutoStart>
   </General>
@@ -139,7 +139,7 @@
       <Enabled>-1</Enabled>
       <Description>Olive Garden - Mafia Music</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>A Legit Olive Garden</ScriptRef>
+      <ScriptRef>I love its authentic Italian food. [mafia enters] **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - ITALIAN Music.mp3</FileName>
@@ -160,7 +160,7 @@
       <Enabled>-1</Enabled>
       <Description>Olive Garden - Doubleback</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>Olive Garden End</ScriptRef>
+      <ScriptRef>Welcome to the family. **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
@@ -181,7 +181,7 @@
       <Enabled>-1</Enabled>
       <Description>NJ Transit - Doubleback</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>NJ Transit End</ScriptRef>
+      <ScriptRef>NJ Transit: The way to go! **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - Double Back-LtQcrSYFQ5k-160k-1642470223802.mp3</FileName>
@@ -200,15 +200,15 @@
       <UID>23</UID>
       <Type>0</Type>
       <Enabled>-1</Enabled>
-      <Description>Y2Mate.is - Look Busy-2x4IrXu3V3U-160k-1654848571846</Description>
+      <Description>Family Dinner - Background Music</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <ScriptRef>[sketch begins] **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - Look Busy-2x4IrXu3V3U-160k-1654848571846.mp3</FileName>
       <AudioChannel>1</AudioChannel>
       <Loops>1</Loops>
-      <Volume-dB>-5</Volume-dB>
+      <Volume-dB>-10</Volume-dB>
       <Pan>0</Pan>
       <Pitch>100</Pitch>
       <StartPos>0</StartPos>
@@ -221,9 +221,9 @@
       <UID>24</UID>
       <Type>0</Type>
       <Enabled>-1</Enabled>
-      <Description>Y2Mate.is - Applause  Sound Effect-0mfJn604GT4-160k-1654206119482</Description>
+      <Description>Family Dinner - Applause</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <ScriptRef>[finishes dance] **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - Applause  Sound Effect-0mfJn604GT4-160k-1654206119482.mp3</FileName>
@@ -244,7 +244,7 @@
       <Enabled>-1</Enabled>
       <Description>Family Dinner - Glass Break</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <ScriptRef>[flails] **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - Glass Breaking sounds effects hd no copyright-YrH9dtA2yB0-128k-1654848954392.mp3</FileName>
@@ -265,7 +265,7 @@
       <Enabled>-1</Enabled>
       <Description>Family Dinner - splat</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <ScriptRef>[flail cont] **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - splat sound effects (no copyright)-o7OgJWmxV3k-128k-1654358366145.mp3</FileName>
@@ -286,7 +286,7 @@
       <Enabled>-1</Enabled>
       <Description>Family Dinner - phone notif</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <ScriptRef>[family laughs] **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - Default iPhone Notification Sound (Apple Sound) - Sound Effect for Editing-AiMbf0ovXT4-128k-1654145855559.mp3</FileName>
@@ -307,7 +307,7 @@
       <Enabled>-1</Enabled>
       <Description>Family Dinner - Fanfare</Description>
       <Trigger Key="0" Shift="" Direction="0"/>
-      <ScriptRef>Family Dinner ChatGPT</ScriptRef>
+      <ScriptRef>How about we go see that new movie that just came out? **</ScriptRef>
       <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
       <Advance Action="1" Target="0"/>
       <FileName>C:\OffCenterSillyLittleGuysTech\audio files for david\Y2Mate.is - Success Fanfare Trumpets - SOUND EFFECTS-2b59E6cReLw-160k-1654846774042.mp3</FileName>
